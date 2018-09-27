@@ -1,0 +1,14 @@
+.uk-margin-remove {
+   
+    padding-top: 15px;
+}
+
+.uk-grid-item-match>:not([class*=uk-width]), .uk-grid-match>*>:not([class*=uk-width]) {
+   
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.uk-transition-fade {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}

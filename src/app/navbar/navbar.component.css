@@ -1,0 +1,31 @@
+
+/* .a{
+	
+	margin-right: 50px;
+	
+}
+.b {
+	background-color: rgba(255, 255, 255, 0.794);
+	font-weight: bold;
+	
+}
+
+.c a{
+	color: grey;
+}
+
+.menu-item:hover {
+	color: #000;
+	background-color: #6cc7d9;
+}
+ */
+
+ .navbar {
+    
+    direction: ltr;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    
+    direction: rtl;
+}
