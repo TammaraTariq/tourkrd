@@ -33,6 +33,7 @@ import { SulaimaniyahhotelComponent } from './sulaimaniyahhotel/sulaimaniyahhote
 import { ThingstodoinsulaymaniyahComponent } from './thingstodoinsulaymaniyah/thingstodoinsulaymaniyah.component';
 import { PlanyourtripComponent } from './planyourtrip/planyourtrip.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 const routes:Routes = [
   { path:'' , redirectTo:'home' , pathMatch:'full' },
@@ -53,6 +54,7 @@ const routes:Routes = [
   { path:'sulaimaniacity/sulaimaniyahhotel' ,component:SulaimaniyahhotelComponent},
   { path:'sulaimaniacity/thingstodoinsulaymaniyah' ,component:ThingstodoinsulaymaniyahComponent},
   { path:'planyourtrip' ,component:PlanyourtripComponent},
+  { path:'aboutus' ,component:AboutusComponent},
 ]
 
 
@@ -84,6 +86,8 @@ const routes:Routes = [
     PlanyourtripComponent,
     
     FooterComponent,
+    
+    AboutusComponent,
    
     
   ],
